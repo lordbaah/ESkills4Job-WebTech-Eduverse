@@ -1,0 +1,275 @@
+.dasboard {
+  font-family: "Poppins", sans-serif;
+  background: #f4f4f4;
+}
+
+.navbar {
+  background: #0e4166;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  color: #ffffff;
+}
+
+.logo {
+  padding: 0 18px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  font-size: 18px;
+}
+
+.logo h2 {
+  padding: 0 14px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .actions i {
+  font-size: 18px;
+  padding: 4px;
+}
+
+.actions-icons {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.schoolprofile {
+  display: flex;
+  align-items: center;
+}
+
+.schoolprofile img {
+  width: 40px;
+  height: 40px;
+  background: #d8d8d8;
+  border-radius: 50%;
+}
+
+.schoolprofile h3 {
+  padding: 0 4px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container-body {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+  height: 100vh;
+}
+
+.left-sidebar {
+  background: #ffffff;
+  height: 100%;
+  width: 18%;
+  padding: 16px 0;
+  border-right: 1px solid #d8d8d8;
+  display: none;
+}
+
+.left-sidebar h3 {
+  font-size: 15px;
+  color: #3a3a3a;
+  text-align: center;
+  font-weight: 400;
+}
+
+.left-sidebar .controls {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.left-sidebar .controls ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.left-sidebar .controls ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 5px;
+}
+
+.left-sidebar .controls ul li a:hover {
+  background-color: #ebf8ff;
+  width: 100%;
+}
+
+.main-body {
+  /* height: 100%; */
+  /* width: calc(100% - 18%); */
+  width: 100%;
+}
+
+.main-body .main-container {
+  padding: 45px;
+}
+
+.main-body .main-container .search-classes {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #068ded;
+  height: 40px;
+  border-radius: 8px;
+  padding: 3px 12px;
+  background: #ffffff;
+}
+
+.search-classes .search-actions {
+  display: flex;
+  align-items: center;
+  padding: 0 9px 0 0;
+  width: 10%;
+}
+
+.search-actions h3 {
+  color: #3a3a3a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.search-classes input {
+  width: calc(100% - 10%);
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.assign {
+  width: 120px;
+  height: 80px;
+  padding: 29px 0 0 0;
+}
+
+.assign input {
+  width: 170px;
+  height: 100%;
+  background: #068ded;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.table-contain {
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #3a3a3a;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 20px;
+  color: #3a3a3a;
+}
+.table-container {
+  margin-top: 15px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.controls select,
+.controls input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.controls select {
+  width: 100px;
+}
+.btn-add {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-add i {
+  margin-right: 5px;
+}
+.btn-add:hover {
+  background-color: #0056b3;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  cursor: pointer;
+}
+thead {
+  background-color: #eff9fe;
+}
+thead th {
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #fbfeff;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.btn-edit {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-edit:hover {
+  background-color: #564fbf;
+}
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+.search-bar {
+  float: right;
+  width: 200px;
+}
